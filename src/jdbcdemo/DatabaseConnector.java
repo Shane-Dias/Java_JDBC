@@ -62,6 +62,6 @@ public class DatabaseConnector {
 
     public static void main(String[] args) {
         String tableName = "employees"; // Replace with your actual table name
-        displayRecords(tableName); // Call the method to display records
+        displayRecords(tableName); // Calling the method to display records
     }
 }
