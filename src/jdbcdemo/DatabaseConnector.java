@@ -113,7 +113,7 @@ public class DatabaseConnector {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String tableName = "employees";
-
+        System.out.println("\nWelcome to the employee management system!");
         while (true) {
             System.out.println("\nMenu:");
             System.out.println("1. Display all records");
@@ -162,7 +162,7 @@ public class DatabaseConnector {
                     deleteAllRecords(tableName);
                     break;
                 case 6:
-                	System.out.println("Thankyou for using this management system");
+                	System.out.println("Thankyou for using this management system!");
                     System.out.println("Exiting database.");
                     scanner.close();
                     return;
